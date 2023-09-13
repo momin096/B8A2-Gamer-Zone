@@ -227,7 +227,7 @@ li {
 
 
 /* Play Online */
-.play-game{
+.play-game {
     max-width: 1440px;
     margin: 100px auto 100px;
     padding: 20px;
@@ -237,10 +237,11 @@ li {
     align-items: center;
 }
 
-.play-game-caption{
+.play-game-caption {
     text-align: right;
     margin-left: 200px;
 }
+
 .play-title {
     font-size: 48px;
     font-weight: 700;
@@ -253,19 +254,53 @@ li {
     font-weight: 400;
 }
 
-.play-game-image{
+.play-game-image {
     position: relative;
 }
-.over-img{
+
+.over-img {
     position: absolute;
     bottom: -100px;
     left: -150px;
 }
 
 
+/* Game */
 
+.game{
+    max-width: 1440px;
+    margin: 200px auto 100px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.btn-game>img {
+    width: 30px;
+}
 
+.btn-game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 17px;
+    border-radius: 30px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #FFF;
+    margin-right: 10px;
+    
+}
 
+.btn-game:hover{
+    color: var(--primary-color);
+    background: #fff;
+    border: 1px solid var(--primary-color);
+}
 
 
 
@@ -297,6 +332,10 @@ li {
     }
 
     /* Online Games */
+    .online-games {
+        padding: 30px;
+    }
+
     .card-container {
         grid-template-columns: 1fr;
         gap: 50px;
@@ -304,31 +343,33 @@ li {
 
 
     /* Play game */
-    .play-game{
+    .play-game {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         text-align: c;
     }
-    
-    .play-game-caption{
+
+    .play-game-caption {
         margin: auto;
     }
-    .play-game-image{
+
+    .play-game-image {
         text-align: center;
     }
-    .play-game-image img{
+
+    .play-game-image img {
         width: 60%;
         margin: 0 auto;
     }
 
-    .over-img{
+    .over-img {
         width: 50%;
         bottom: -30px;
         left: -10px;
     }
-    
-    
+
+
 }
 
 
@@ -345,31 +386,37 @@ li {
     }
 
     /* Online Games */
+    .online-games {
+        padding: 50px;
+    }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
 
-      /* Play game */
-      .play-game{
+    /* Play game */
+    .play-game {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         text-align: c;
     }
-    
-    .play-game-caption{
+
+    .play-game-caption {
         margin: auto;
     }
-    .play-game-image{
+
+    .play-game-image {
         text-align: center;
     }
-    .play-game-image img{
+
+    .play-game-image img {
         width: 60%;
         margin: 0 auto;
     }
 
-    .over-img{
+    .over-img {
         width: 50%;
         bottom: -30px;
         left: -10px;
