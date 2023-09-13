@@ -145,6 +145,14 @@ li {
         flex-direction: column;
         gap: 10px;
     }
+
+
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        background-position: bottom left;
+        background-size: 450px;
+    }
 }
 
 
@@ -153,5 +161,10 @@ li {
 
     .nav-bar {
         gap: 20px;
+    }
+
+    /* banner */
+    .banner{
+        background-size: 500px;
     }
 }
