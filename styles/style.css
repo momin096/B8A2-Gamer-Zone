@@ -230,7 +230,9 @@ li {
 .play-game{
     max-width: 1440px;
     margin: 100px auto 100px;
+    padding: 20px;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -299,6 +301,34 @@ li {
         grid-template-columns: 1fr;
         gap: 50px;
     }
+
+
+    /* Play game */
+    .play-game{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: c;
+    }
+    
+    .play-game-caption{
+        margin: auto;
+    }
+    .play-game-image{
+        text-align: center;
+    }
+    .play-game-image img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .over-img{
+        width: 50%;
+        bottom: -30px;
+        left: -10px;
+    }
+    
+    
 }
 
 
@@ -318,5 +348,30 @@ li {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+    }
+
+      /* Play game */
+      .play-game{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: c;
+    }
+    
+    .play-game-caption{
+        margin: auto;
+    }
+    .play-game-image{
+        text-align: center;
+    }
+    .play-game-image img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .over-img{
+        width: 50%;
+        bottom: -30px;
+        left: -10px;
     }
 }
