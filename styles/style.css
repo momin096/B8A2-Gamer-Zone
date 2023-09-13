@@ -76,3 +76,26 @@ header {
 li {
     list-style: none;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .nav {
+       flex-direction: column;
+       gap: 20px;
+    }
+
+    .nav-bar{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+
+     .nav-bar{
+         gap: 20px;
+     }
+}
