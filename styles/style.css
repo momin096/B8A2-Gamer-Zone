@@ -136,7 +136,7 @@ li {
 
 .online-games {
     max-width: 1440px;
-    margin: 100px auto 0;
+    margin: 100px auto 100px;
     padding: 20px;
 }
 
@@ -226,10 +226,39 @@ li {
 }
 
 
+/* Play Online */
+.play-game{
+    max-width: 1440px;
+    margin: 100px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.play-game-caption{
+    text-align: right;
+    margin-left: 200px;
+}
+.play-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+}
 
+.play-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-
+.play-game-image{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
 
 
 
@@ -285,9 +314,9 @@ li {
         background-size: 500px;
     }
 
-     /* Online Games */
-     .card-container {
-        grid-template-columns: repeat(2,1fr);
+    /* Online Games */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
 }
