@@ -25,6 +25,24 @@ img {
     color: var(--primary-color);
 }
 
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+}
+
+.btn-secoendary{
+    background-color: var(--secoendary-color);
+}
+
 
 /* Header section */
 
@@ -78,24 +96,62 @@ li {
 }
 
 
+/* Banner section */
 
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.left-play {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.icon {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+/* Responsive  -----------------------------*/
+
+/* Mobile Devices */
 @media screen and (max-width: 576px) {
     .nav {
-       flex-direction: column;
-       gap: 20px;
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         gap: 10px;
     }
 }
 
 
-
+/* tablet devices */
 @media screen and (min-width: 577px) and (max-width:992px) {
 
-     .nav-bar{
-         gap: 20px;
-     }
+    .nav-bar {
+        gap: 20px;
+    }
 }
