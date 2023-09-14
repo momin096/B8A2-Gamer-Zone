@@ -271,9 +271,11 @@ li {
     max-width: 1440px;
     margin: 200px auto 100px;
     padding: 20px;
-    display: flex;
+    display: grid;
     gap: 10px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -340,16 +342,12 @@ li>a {
     justify-content: space-around;
 }
 
-.logo-title>img {
-    margin-top: 5px;
-    width: 87px;
-    height: 41px;
-}
 
 .footer-links {
-    display: flex;
-    gap: 60px;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    gap: 30px;
 
 }
 
@@ -361,7 +359,8 @@ a {
 }
 
 .social-link {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 50px;
 }
 
@@ -370,8 +369,9 @@ a {
 }
 
 .security {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
 }
 
 .security a {
@@ -431,7 +431,6 @@ a {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        text-align: c;
     }
 
     .play-game-caption {
@@ -453,35 +452,42 @@ a {
         left: -10px;
     }
 
-
+    /* Game */
+    .game{
+        grid-template-columns:repeat(1,1fr) ;
+    }
 
     /* footer */
-    .footer-container{
+    .footer-container {
         align-items: center;
         justify-content: center;
     }
+
     .footer-links {
-        /* flex-direction: column; */
-        flex-wrap: wrap;    
+        grid-template-columns: repeat(3, 1fr);
+
+
     }
-    
+
+
     .social-link {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
     }
-    
-  
+
+
     .security {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
-    
+
     .all-right {
         color: rgba(255, 255, 255, 0.60);
         font-size: 16px;
         font-weight: 500;
     }
-    
-    
-    
+
+
+
 
 }
 
@@ -536,30 +542,39 @@ a {
     }
 
 
-     /* footer */
+    /* Game */
+    .game{
+        grid-template-columns:repeat(2,1fr) ;
+    }
 
-     .footer-container{
+    /* footer */
+
+    .footer-container {
         align-items: center;
         justify-content: center;
     }
-     .footer-links {
-       
-        flex-wrap: wrap;    
+
+    .footer-links {
+
+        grid-template-columns: repeat(3, 1fr);
+
     }
-    
+
+
     .social-link {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(6, 1fr);
     }
-    
-  
+
+
     .security {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
-    
+
     .all-right {
         color: rgba(255, 255, 255, 0.60);
         font-size: 16px;
         font-weight: 500;
     }
-    
+
 }
